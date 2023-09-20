@@ -1,0 +1,9 @@
+{
+    "PORT": 3000,
+    "SQL": {
+        "host": "localhost",
+        "user": "root",
+        "database": "ussurvescom",
+        "password": "212867Alex"
+    }
+}
