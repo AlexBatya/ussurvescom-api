@@ -30,8 +30,9 @@ CREATE TABLE `category`
 -- Инициализация таблицы product
 CREATE TABLE `product` 
 (
+    `id` int NOT NULL auto_increment PRIMARY KEY,
     `category_id` int NOT NULL,
-    `title` int NOT NULL,
+    `title` text NOT NULL,
     `description` text NOT NULL,
     `price` int DEFAULT NULL,
     `img_id` int DEFAULT NULL 

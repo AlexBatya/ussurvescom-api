@@ -31,12 +31,8 @@ const axiosConfigDELETE = (elem, url) => {
     //     id: 10 
     // }
     const data = {
-        category_id: 1, 
-        title: 'Авион',
-        description: 'Пиздатые весы',
-        price: 100,
-        img_id: 3 
-    }
-    const ReqData = await axios(axiosConfigPOST(data, '/api/product/create'))
+        title: 'Автомобильные весы'
+    } 
+    const ReqData = await axios(axiosConfigPOST(data, '/api/category/create'))
     console.log(ReqData.data)
 })();
